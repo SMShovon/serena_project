@@ -1,0 +1,280 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: .3s all ease-out;
+}
+
+body {}
+
+/* header */
+header {
+  background-color: #ddc3ac;
+}
+
+nav.top-nav {
+  padding: 20px;
+}
+
+nav.top-nav ul {
+  text-align: center;
+}
+
+nav.top-nav ul li {
+  list-style: none;
+  display: inline;
+}
+
+nav.top-nav ul li a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+nav.top-nav ul li a.serena {
+  font-size: 35px;
+  position: relative;
+  top: 5px;
+}
+
+.header-content {
+  text-align: center;
+  padding: 100px 50px 120px;
+}
+
+h1 {
+  color: #fff;
+  padding: 20px;
+}
+
+.box-wrap {
+  padding: 20px;
+}
+
+div a.box-btn {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 22px;
+  border: 1px solid #636363;
+  display: inline-block;
+}
+/* header */
+
+/* first section */
+section.first-sec {
+  overflow: hidden;
+}
+
+.img-wrapper {
+  float: left;
+  width: 50%;
+}
+
+.img-wrapper img {
+  max-width: 100%;
+}
+
+article.text-wrapper {
+  float: left;
+  width: 50%;
+  padding: 40px;
+  text-align: center;
+}
+article.text-wrapper .width-wrap {
+  max-width: 290px;
+}
+h2 {
+  padding: 20px 0;
+  font-size: 35px;
+}
+
+h3 {
+  color: #333;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+article.text-wrapper p {
+  line-height: 1.6;
+  color: #777;
+  font-size: 18px;
+  padding: 10px 0;
+}
+/* first section */
+
+/* second section */
+section.second-sec {
+  background-color: #f0f0f0;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.yoga-type {border-bottom: 1px solid #fff;width: 50%;margin: auto;margin-bottom: 20px;}
+
+h4 {}
+
+section.second-sec p {
+  padding: 20px;
+  color: #777;
+}
+
+section.second-sec a.box-btn {
+  margin-top: 15px;
+}
+
+/* second section */
+
+/* third section */
+section.third-sec {
+  overflow: hidden;
+}
+
+h4 {
+  padding: 0px 20px 0;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 15px;
+  color: #333;
+}
+
+h5 {
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 12px;
+  padding: 10px;
+}
+
+section.third-sec h4 {
+  margin-top: 15px;
+}
+
+section.third-sec h5 {
+  margin-bottom: 26px;
+}
+
+/* third section */
+
+/* fourth section */
+section.fourth-sec {
+  overflow: hidden;
+}
+
+section.fourth-sec a.box-btn {
+  margin-top: 10px;
+}
+
+section.fourth-sec article.text-wrapper {
+  position: relative;
+}
+
+section.fourth-sec .width-wrap {
+  position: absolute;
+  right: 0;
+  padding: 0 25px;
+}
+/* fourth section */
+
+/* fifth section */
+section.fifth-sec {
+  background-color: #f4d4c1;
+  text-align: center;
+  padding: 150px 50px;
+}
+
+section.fifth-sec h1 {
+  font-size: 35px;
+}
+
+section.fifth-sec a.box-btn {
+  margin: 20px;
+}
+/* fifth section */
+
+/* footer */
+footer {
+  background-color: #ececec;
+}
+
+.footer-img-wrap {
+  overflow: hidden;
+  width: 60%;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 65px;
+}
+
+.footer-img-wrap .footer-img {
+  float: left;
+}
+
+.footer-img-wrap .footer-img img {padding: 0 10px;}
+
+.social-links {
+	text-align: center;
+	margin: 5px 0;
+}
+
+.social-links ul {
+  margin-left: 50px;
+}
+
+.social-links ul li {
+  display: inline;
+}
+
+.social-links ul li a {
+  display: inline-block;
+  color: #333;
+  padding: 15px 8px;
+}
+
+.footer-menu {
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.footer-menu ul {}
+
+.footer-menu ul li {
+  display: inline;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 12px;
+  margin-left: 20px;
+}
+/* footer */
+
+/* hover */
+.footer-menu ul li a:hover {
+  color: #5c6b6c;
+}
+
+nav.top-nav ul li a:hover {
+  color: #5c6b6c;
+  border-bottom: 1px solid #5c6b6c;
+}
+
+div a.box-btn:hover {
+  color: #e6e5e4;
+  background-color: #5c6b6c;
+}
+
+.social-links ul li a:hover {
+  color: #5c6b6c;
+}
+/* hover */
